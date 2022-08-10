@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  <run>
+   <include name="group2"></include>
+  <include name="group1"></include>
+ </run>
+      </groups>
+  
+  <classes>
+  <class name="Annotation.Method"/> 
+  <class name="Annotation.Method2"/> 
+  <class name="Annotation.Method3"/> 
+  </classes>
+  
+  </test>
+  
+  
+  
+  
+  <test  name="Test1">
+  <classes>
+  <class name="Annotation.Method4linkparent"/> 
+  </classes>
+  </test>
+  
+  
+  
+</suite> 

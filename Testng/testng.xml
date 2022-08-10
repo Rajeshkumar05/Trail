@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="demosuite" verbose="1" >
+  <test name="demotest" >
+    <classes >
+       <class name="Testngpack.XmlDemo1">
+      <methods>
+      <include name =""></include>
+      </methods>
+       </class>
+        <class name="Testngpack.XmlDemo2"/>
+    </classes>
+    
+    
+  </test>
+ 
+
+</suite>
